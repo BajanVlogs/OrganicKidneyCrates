@@ -1,0 +1,56 @@
+# SourSmirnoffs Version of CrateKeys
+# SourCrates - SourSmirnoff
+# https://github.com/SourSmirnoff
+
+# Are OPs/Admins allowed to give other players CrateKeys?
+PlayerGive: true
+
+Prefix: "§7[§a§lSour§2Crate§r§7] §a"
+
+# Location of SourCrate?
+X: 20
+"Y": 69
+Z: 10
+World: world
+
+# ID of the Crate Key (399 = Nether Star)
+KeyID: 399
+
+# How many items a player gets per SourCrate Opening?
+Number: 7
+
+# List of items in the SourCrate. Random rewards will be chosen.
+Items:
+  - "14:0:64"
+  - "15:0:64"
+  - "17:0:128"
+  - "21:0:1"
+  - "133:0:16"
+  - "264:0:32"
+  - "264:0:64"
+  - "264:0:128"
+  - "265:0:8"
+  - "265:0:64"
+  - "265:0:128"
+  - "265:0:256"
+  - "310:0:1"
+  - "311:0:1"
+  - "312:0:1"
+  - "313:0:1"
+  - "388:0:64"
+  - "466:0:1"
+  - "466:0:5"
+  - "466:0:10"
+  - "466:0:16"
+  - "466:0:32"
+  - "466:0:64"
+  - "599:0:1"
+  - "599:0:5"
+  - "599:0:10"
+  - "599:0:32"
+  
+# List of commands to run when a player gets a CrateKey
+# Use {PLAYER} for the player, and {NAME} for the player's name
+# Not Quite Working yet!!!
+Commands:
+    - say {player] just got a crate key!

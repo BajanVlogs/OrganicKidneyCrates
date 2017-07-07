@@ -1,0 +1,18 @@
+name: SourCrates
+version: 1.0.0
+api: [3.0.0-ALPHA6]
+main: SourSmirnoff\SourCrates\Main
+author: SourSmirnoff
+commands:
+    cratekey:
+        usage: "/cratekey <player>"
+        description: Gives a player a crate key
+        permission: cratekey.give
+permissions:
+    cratekey:
+        default: op
+        description: "Allows the player to use all of the CrateKey commands"
+        children:
+            cratekey.give:
+                default: op
+                description: "Allows the player to give another player a CrateKey"
